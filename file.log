@@ -1,0 +1,379 @@
+DEBUG: ConfigParser: Reading file '/home/amrbakr/.s3cfg'
+DEBUG: ConfigParser: access_key->F7...17_chars...C
+DEBUG: ConfigParser: bucket_location->US
+DEBUG: ConfigParser: cloudfront_host->cloudfront.beyondhosting.net
+DEBUG: ConfigParser: default_mime_type->binary/octet-stream
+DEBUG: ConfigParser: delete_removed->False
+DEBUG: ConfigParser: dry_run->False
+DEBUG: ConfigParser: enable_multipart->True
+DEBUG: ConfigParser: encoding->UTF-8
+DEBUG: ConfigParser: encrypt->False
+DEBUG: ConfigParser: follow_symlinks->False
+DEBUG: ConfigParser: force->False
+DEBUG: ConfigParser: get_continue->False
+DEBUG: ConfigParser: gpg_command->/usr/bin/gpg
+DEBUG: ConfigParser: gpg_decrypt->%(gpg_command)s -d --verbose --no-use-agent --batch --yes --passphrase-fd %(passphrase_fd)s -o %(output_file)s %(input_file)s
+DEBUG: ConfigParser: gpg_encrypt->%(gpg_command)s -c --verbose --no-use-agent --batch --yes --passphrase-fd %(passphrase_fd)s -o %(output_file)s %(input_file)s
+DEBUG: ConfigParser: gpg_passphrase->Ba...6_chars...1
+DEBUG: ConfigParser: guess_mime_type->True
+DEBUG: ConfigParser: host_base->s3.beyondhosting.net
+DEBUG: ConfigParser: host_bucket->%(bucket)s.s3.beyondhosting.net
+DEBUG: ConfigParser: human_readable_sizes->False
+DEBUG: ConfigParser: invalidate_on_cf->False
+DEBUG: ConfigParser: list_md5->False
+DEBUG: ConfigParser: log_target_prefix->
+DEBUG: ConfigParser: mime_type->
+DEBUG: ConfigParser: multipart_chunk_size_mb->15
+DEBUG: ConfigParser: preserve_attrs->True
+DEBUG: ConfigParser: progress_meter->True
+DEBUG: ConfigParser: proxy_host->
+DEBUG: ConfigParser: proxy_port->0
+DEBUG: ConfigParser: recursive->False
+DEBUG: ConfigParser: recv_chunk->4096
+DEBUG: ConfigParser: reduced_redundancy->False
+DEBUG: ConfigParser: secret_key->O8...37_chars...F
+DEBUG: ConfigParser: send_chunk->4096
+DEBUG: ConfigParser: simpledb_host->sdb.beyondhosting.net
+DEBUG: ConfigParser: skip_existing->False
+DEBUG: ConfigParser: socket_timeout->300
+DEBUG: ConfigParser: urlencoding_mode->normal
+DEBUG: ConfigParser: use_https->True
+DEBUG: ConfigParser: verbosity->WARNING
+DEBUG: ConfigParser: website_endpoint->http://%(bucket)s.s3-website-%(location)s.beyondhosting.net/
+DEBUG: ConfigParser: website_error->
+DEBUG: ConfigParser: website_index->index.html
+DEBUG: Updating Config.Config encoding -> ANSI_X3.4-1968
+DEBUG: Updating Config.Config follow_symlinks -> False
+DEBUG: Updating Config.Config verbosity -> 10
+DEBUG: Unicodising 'put' using ANSI_X3.4-1968
+DEBUG: Unicodising '/tmp/php7IL7c2' using ANSI_X3.4-1968
+DEBUG: Unicodising 's3://life_is_big/25944/561cf7492e65d_1444738889_test.mp4' using ANSI_X3.4-1968
+DEBUG: Command: put
+INFO: Compiling list of local files...
+DEBUG: DeUnicodising u'/tmp' using ANSI_X3.4-1968
+DEBUG: DeUnicodising u'php7IL7c2' using ANSI_X3.4-1968
+DEBUG: Unicodising 'php7IL7c2' using ANSI_X3.4-1968
+DEBUG: Unicodising '/tmp/php7IL7c2' using ANSI_X3.4-1968
+INFO: Applying --exclude/--include
+DEBUG: CHECK: php7IL7c2
+DEBUG: PASS: php7IL7c2
+INFO: Summary: 1 local files to upload
+DEBUG: Unicodising 's3://life_is_big/25944/561cf7492e65d_1444738889_test.mp4' using ANSI_X3.4-1968
+WARNING: Module python-magic is not available. Guessing MIME types based on file extensions.
+DEBUG: Content-Type set to 'binary/octet-stream'
+DEBUG: String '25944/561cf7492e65d_1444738889_test.mp4' encoded to '25944/561cf7492e65d_1444738889_test.mp4'
+DEBUG: SignHeaders: 'PUT\n\nbinary/octet-stream\n\nx-amz-acl:public-read\nx-amz-date:Tue, 13 Oct 2015 12:21:29 +0000\n/life_is_big/25944/561cf7492e65d_1444738889_test.mp4'
+DEBUG: CreateRequest: resource[uri]=/25944/561cf7492e65d_1444738889_test.mp4
+DEBUG: Unicodising '/tmp/php7IL7c2' using ANSI_X3.4-1968
+DEBUG: SignHeaders: 'PUT\n\nbinary/octet-stream\n\nx-amz-acl:public-read\nx-amz-date:Tue, 13 Oct 2015 12:21:29 +0000\n/life_is_big/25944/561cf7492e65d_1444738889_test.mp4'
+INFO: Sending file '/tmp/php7IL7c2', please wait...
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: get_hostname(life_is_big): s3.beyondhosting.net
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: format_uri(): /life_is_big/25944/561cf7492e65d_1444738889_test.mp4
+WARNING: Upload failed: /25944/561cf7492e65d_1444738889_test.mp4 ([Errno 104] Connection reset by peer)
+WARNING: Retrying on lower speed (throttle=0.00)
+WARNING: Waiting 3 sec...
+DEBUG: SignHeaders: 'PUT\n\nbinary/octet-stream\n\nx-amz-acl:public-read\nx-amz-date:Tue, 13 Oct 2015 12:21:34 +0000\n/life_is_big/25944/561cf7492e65d_1444738889_test.mp4'
+INFO: Sending file '/tmp/php7IL7c2', please wait...
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: get_hostname(life_is_big): s3.beyondhosting.net
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: format_uri(): /life_is_big/25944/561cf7492e65d_1444738889_test.mp4
+DEBUG: Response: {'status': 200, 'headers': {'content-length': '0', 'accept-ranges': 'bytes', 'server': 'Tengine/2.1.0', 'connection': 'keep-alive', 'etag': '"d0567a3e969777002cd257244346932d"', 'date': 'Tue, 13 Oct 2015 12:22:10 GMT', 'content-type': 'application/xml'}, 'reason': 'OK', 'data': '', 'size': 1441748}
+DEBUG: MD5 sums: computed=d0567a3e969777002cd257244346932d, received="d0567a3e969777002cd257244346932d"
+DEBUG: Unicodising '/tmp/php7IL7c2' using ANSI_X3.4-1968
+File '/tmp/php7IL7c2' stored as 's3://life_is_big/25944/561cf7492e65d_1444738889_test.mp4' (1441748 bytes in 35.6 seconds, 39.54 kB/s) [1 of 1]
+Public URL of the object is: http://s3.amazonaws.com/life_is_big/25944/561cf7492e65d_1444738889_test.mp4
+DEBUG: ConfigParser: Reading file '/home/amrbakr/.s3cfg'
+DEBUG: ConfigParser: access_key->F7...17_chars...C
+DEBUG: ConfigParser: bucket_location->US
+DEBUG: ConfigParser: cloudfront_host->cloudfront.beyondhosting.net
+DEBUG: ConfigParser: default_mime_type->binary/octet-stream
+DEBUG: ConfigParser: delete_removed->False
+DEBUG: ConfigParser: dry_run->False
+DEBUG: ConfigParser: enable_multipart->True
+DEBUG: ConfigParser: encoding->UTF-8
+DEBUG: ConfigParser: encrypt->False
+DEBUG: ConfigParser: follow_symlinks->False
+DEBUG: ConfigParser: force->False
+DEBUG: ConfigParser: get_continue->False
+DEBUG: ConfigParser: gpg_command->/usr/bin/gpg
+DEBUG: ConfigParser: gpg_decrypt->%(gpg_command)s -d --verbose --no-use-agent --batch --yes --passphrase-fd %(passphrase_fd)s -o %(output_file)s %(input_file)s
+DEBUG: ConfigParser: gpg_encrypt->%(gpg_command)s -c --verbose --no-use-agent --batch --yes --passphrase-fd %(passphrase_fd)s -o %(output_file)s %(input_file)s
+DEBUG: ConfigParser: gpg_passphrase->Ba...6_chars...1
+DEBUG: ConfigParser: guess_mime_type->True
+DEBUG: ConfigParser: host_base->s3.beyondhosting.net
+DEBUG: ConfigParser: host_bucket->%(bucket)s.s3.beyondhosting.net
+DEBUG: ConfigParser: human_readable_sizes->False
+DEBUG: ConfigParser: invalidate_on_cf->False
+DEBUG: ConfigParser: list_md5->False
+DEBUG: ConfigParser: log_target_prefix->
+DEBUG: ConfigParser: mime_type->
+DEBUG: ConfigParser: multipart_chunk_size_mb->15
+DEBUG: ConfigParser: preserve_attrs->True
+DEBUG: ConfigParser: progress_meter->True
+DEBUG: ConfigParser: proxy_host->
+DEBUG: ConfigParser: proxy_port->0
+DEBUG: ConfigParser: recursive->False
+DEBUG: ConfigParser: recv_chunk->4096
+DEBUG: ConfigParser: reduced_redundancy->False
+DEBUG: ConfigParser: secret_key->O8...37_chars...F
+DEBUG: ConfigParser: send_chunk->4096
+DEBUG: ConfigParser: simpledb_host->sdb.beyondhosting.net
+DEBUG: ConfigParser: skip_existing->False
+DEBUG: ConfigParser: socket_timeout->300
+DEBUG: ConfigParser: urlencoding_mode->normal
+DEBUG: ConfigParser: use_https->True
+DEBUG: ConfigParser: verbosity->WARNING
+DEBUG: ConfigParser: website_endpoint->http://%(bucket)s.s3-website-%(location)s.beyondhosting.net/
+DEBUG: ConfigParser: website_error->
+DEBUG: ConfigParser: website_index->index.html
+DEBUG: Updating Config.Config encoding -> ANSI_X3.4-1968
+DEBUG: Updating Config.Config follow_symlinks -> False
+DEBUG: Updating Config.Config verbosity -> 10
+DEBUG: Unicodising 'put' using ANSI_X3.4-1968
+DEBUG: Unicodising '/tmp/phpCb96WR' using ANSI_X3.4-1968
+DEBUG: Unicodising 's3://life_is_big/25944/image/561cf7492e65d_1444738889_test.mp4' using ANSI_X3.4-1968
+DEBUG: Command: put
+INFO: Compiling list of local files...
+DEBUG: DeUnicodising u'/tmp' using ANSI_X3.4-1968
+DEBUG: DeUnicodising u'phpCb96WR' using ANSI_X3.4-1968
+DEBUG: Unicodising 'phpCb96WR' using ANSI_X3.4-1968
+DEBUG: Unicodising '/tmp/phpCb96WR' using ANSI_X3.4-1968
+INFO: Applying --exclude/--include
+DEBUG: CHECK: phpCb96WR
+DEBUG: PASS: phpCb96WR
+INFO: Summary: 1 local files to upload
+DEBUG: Unicodising 's3://life_is_big/25944/image/561cf7492e65d_1444738889_test.mp4' using ANSI_X3.4-1968
+WARNING: Module python-magic is not available. Guessing MIME types based on file extensions.
+DEBUG: Content-Type set to 'binary/octet-stream'
+DEBUG: String '25944/image/561cf7492e65d_1444738889_test.mp4' encoded to '25944/image/561cf7492e65d_1444738889_test.mp4'
+DEBUG: SignHeaders: 'PUT\n\nbinary/octet-stream\n\nx-amz-acl:public-read\nx-amz-date:Tue, 13 Oct 2015 12:22:10 +0000\n/life_is_big/25944/image/561cf7492e65d_1444738889_test.mp4'
+DEBUG: CreateRequest: resource[uri]=/25944/image/561cf7492e65d_1444738889_test.mp4
+DEBUG: Unicodising '/tmp/phpCb96WR' using ANSI_X3.4-1968
+DEBUG: SignHeaders: 'PUT\n\nbinary/octet-stream\n\nx-amz-acl:public-read\nx-amz-date:Tue, 13 Oct 2015 12:22:10 +0000\n/life_is_big/25944/image/561cf7492e65d_1444738889_test.mp4'
+INFO: Sending file '/tmp/phpCb96WR', please wait...
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: get_hostname(life_is_big): s3.beyondhosting.net
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: format_uri(): /life_is_big/25944/image/561cf7492e65d_1444738889_test.mp4
+DEBUG: Response: {'status': 411, 'headers': {'content-length': '86', 'accept-ranges': 'bytes', 'server': 'Tengine/2.1.0', 'connection': 'keep-alive', 'date': 'Tue, 13 Oct 2015 12:22:14 GMT', 'content-type': 'application/xml'}, 'reason': 'Length Required', 'data': '<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingContentLength</Code></Error>', 'size': 74304}
+DEBUG: S3Error: 411 (Length Required)
+DEBUG: HttpHeader: content-length: 86
+DEBUG: HttpHeader: accept-ranges: bytes
+DEBUG: HttpHeader: server: Tengine/2.1.0
+DEBUG: HttpHeader: connection: keep-alive
+DEBUG: HttpHeader: etag: 
+DEBUG: HttpHeader: date: Tue, 13 Oct 2015 12:22:14 GMT
+DEBUG: HttpHeader: content-type: application/xml
+DEBUG: ErrorXML: Code: 'MissingContentLength'
+DEBUG: S3Error: 411 (Length Required)
+DEBUG: HttpHeader: content-length: 86
+DEBUG: HttpHeader: accept-ranges: bytes
+DEBUG: HttpHeader: server: Tengine/2.1.0
+DEBUG: HttpHeader: connection: keep-alive
+DEBUG: HttpHeader: etag: 
+DEBUG: HttpHeader: date: Tue, 13 Oct 2015 12:22:14 GMT
+DEBUG: HttpHeader: content-type: application/xml
+DEBUG: ErrorXML: Code: 'MissingContentLength'
+ERROR: S3 error: 411 (MissingContentLength): 
+DEBUG: ConfigParser: Reading file '/home/amrbakr/.s3cfg'
+DEBUG: ConfigParser: access_key->F7...17_chars...C
+DEBUG: ConfigParser: bucket_location->US
+DEBUG: ConfigParser: cloudfront_host->cloudfront.beyondhosting.net
+DEBUG: ConfigParser: default_mime_type->binary/octet-stream
+DEBUG: ConfigParser: delete_removed->False
+DEBUG: ConfigParser: dry_run->False
+DEBUG: ConfigParser: enable_multipart->True
+DEBUG: ConfigParser: encoding->UTF-8
+DEBUG: ConfigParser: encrypt->False
+DEBUG: ConfigParser: follow_symlinks->False
+DEBUG: ConfigParser: force->False
+DEBUG: ConfigParser: get_continue->False
+DEBUG: ConfigParser: gpg_command->/usr/bin/gpg
+DEBUG: ConfigParser: gpg_decrypt->%(gpg_command)s -d --verbose --no-use-agent --batch --yes --passphrase-fd %(passphrase_fd)s -o %(output_file)s %(input_file)s
+DEBUG: ConfigParser: gpg_encrypt->%(gpg_command)s -c --verbose --no-use-agent --batch --yes --passphrase-fd %(passphrase_fd)s -o %(output_file)s %(input_file)s
+DEBUG: ConfigParser: gpg_passphrase->Ba...6_chars...1
+DEBUG: ConfigParser: guess_mime_type->True
+DEBUG: ConfigParser: host_base->s3.beyondhosting.net
+DEBUG: ConfigParser: host_bucket->%(bucket)s.s3.beyondhosting.net
+DEBUG: ConfigParser: human_readable_sizes->False
+DEBUG: ConfigParser: invalidate_on_cf->False
+DEBUG: ConfigParser: list_md5->False
+DEBUG: ConfigParser: log_target_prefix->
+DEBUG: ConfigParser: mime_type->
+DEBUG: ConfigParser: multipart_chunk_size_mb->15
+DEBUG: ConfigParser: preserve_attrs->True
+DEBUG: ConfigParser: progress_meter->True
+DEBUG: ConfigParser: proxy_host->
+DEBUG: ConfigParser: proxy_port->0
+DEBUG: ConfigParser: recursive->False
+DEBUG: ConfigParser: recv_chunk->4096
+DEBUG: ConfigParser: reduced_redundancy->False
+DEBUG: ConfigParser: secret_key->O8...37_chars...F
+DEBUG: ConfigParser: send_chunk->4096
+DEBUG: ConfigParser: simpledb_host->sdb.beyondhosting.net
+DEBUG: ConfigParser: skip_existing->False
+DEBUG: ConfigParser: socket_timeout->300
+DEBUG: ConfigParser: urlencoding_mode->normal
+DEBUG: ConfigParser: use_https->True
+DEBUG: ConfigParser: verbosity->WARNING
+DEBUG: ConfigParser: website_endpoint->http://%(bucket)s.s3-website-%(location)s.beyondhosting.net/
+DEBUG: ConfigParser: website_error->
+DEBUG: ConfigParser: website_index->index.html
+DEBUG: Updating Config.Config encoding -> ANSI_X3.4-1968
+DEBUG: Updating Config.Config follow_symlinks -> False
+DEBUG: Updating Config.Config verbosity -> 10
+DEBUG: Unicodising 'put' using ANSI_X3.4-1968
+DEBUG: Unicodising '/tmp/phphBKqgo' using ANSI_X3.4-1968
+DEBUG: Unicodising 's3://life_is_big/25945/561d0345eaa62_1444741957_test.mp4' using ANSI_X3.4-1968
+DEBUG: Command: put
+INFO: Compiling list of local files...
+DEBUG: DeUnicodising u'/tmp' using ANSI_X3.4-1968
+DEBUG: DeUnicodising u'phphBKqgo' using ANSI_X3.4-1968
+DEBUG: Unicodising 'phphBKqgo' using ANSI_X3.4-1968
+DEBUG: Unicodising '/tmp/phphBKqgo' using ANSI_X3.4-1968
+INFO: Applying --exclude/--include
+DEBUG: CHECK: phphBKqgo
+DEBUG: PASS: phphBKqgo
+INFO: Summary: 1 local files to upload
+DEBUG: Unicodising 's3://life_is_big/25945/561d0345eaa62_1444741957_test.mp4' using ANSI_X3.4-1968
+WARNING: Module python-magic is not available. Guessing MIME types based on file extensions.
+DEBUG: Content-Type set to 'binary/octet-stream'
+DEBUG: String '25945/561d0345eaa62_1444741957_test.mp4' encoded to '25945/561d0345eaa62_1444741957_test.mp4'
+DEBUG: SignHeaders: 'PUT\n\nbinary/octet-stream\n\nx-amz-acl:public-read\nx-amz-date:Tue, 13 Oct 2015 13:12:38 +0000\n/life_is_big/25945/561d0345eaa62_1444741957_test.mp4'
+DEBUG: CreateRequest: resource[uri]=/25945/561d0345eaa62_1444741957_test.mp4
+DEBUG: Unicodising '/tmp/phphBKqgo' using ANSI_X3.4-1968
+DEBUG: SignHeaders: 'PUT\n\nbinary/octet-stream\n\nx-amz-acl:public-read\nx-amz-date:Tue, 13 Oct 2015 13:12:38 +0000\n/life_is_big/25945/561d0345eaa62_1444741957_test.mp4'
+INFO: Sending file '/tmp/phphBKqgo', please wait...
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: get_hostname(life_is_big): s3.beyondhosting.net
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: format_uri(): /life_is_big/25945/561d0345eaa62_1444741957_test.mp4
+WARNING: Upload failed: /25945/561d0345eaa62_1444741957_test.mp4 ([Errno 104] Connection reset by peer)
+WARNING: Retrying on lower speed (throttle=0.00)
+WARNING: Waiting 3 sec...
+DEBUG: SignHeaders: 'PUT\n\nbinary/octet-stream\n\nx-amz-acl:public-read\nx-amz-date:Tue, 13 Oct 2015 13:12:46 +0000\n/life_is_big/25945/561d0345eaa62_1444741957_test.mp4'
+INFO: Sending file '/tmp/phphBKqgo', please wait...
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: get_hostname(life_is_big): s3.beyondhosting.net
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: format_uri(): /life_is_big/25945/561d0345eaa62_1444741957_test.mp4
+WARNING: Upload failed: /25945/561d0345eaa62_1444741957_test.mp4 ([Errno 104] Connection reset by peer)
+WARNING: Retrying on lower speed (throttle=0.01)
+WARNING: Waiting 6 sec...
+DEBUG: SignHeaders: 'PUT\n\nbinary/octet-stream\n\nx-amz-acl:public-read\nx-amz-date:Tue, 13 Oct 2015 13:12:55 +0000\n/life_is_big/25945/561d0345eaa62_1444741957_test.mp4'
+INFO: Sending file '/tmp/phphBKqgo', please wait...
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: get_hostname(life_is_big): s3.beyondhosting.net
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: format_uri(): /life_is_big/25945/561d0345eaa62_1444741957_test.mp4
+WARNING: Upload failed: /25945/561d0345eaa62_1444741957_test.mp4 ([Errno 104] Connection reset by peer)
+WARNING: Retrying on lower speed (throttle=0.05)
+WARNING: Waiting 9 sec...
+DEBUG: SignHeaders: 'PUT\n\nbinary/octet-stream\n\nx-amz-acl:public-read\nx-amz-date:Tue, 13 Oct 2015 13:13:08 +0000\n/life_is_big/25945/561d0345eaa62_1444741957_test.mp4'
+INFO: Sending file '/tmp/phphBKqgo', please wait...
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: get_hostname(life_is_big): s3.beyondhosting.net
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: format_uri(): /life_is_big/25945/561d0345eaa62_1444741957_test.mp4
+WARNING: Upload failed: /25945/561d0345eaa62_1444741957_test.mp4 ([Errno 104] Connection reset by peer)
+WARNING: Retrying on lower speed (throttle=0.25)
+WARNING: Waiting 12 sec...
+DEBUG: SignHeaders: 'PUT\n\nbinary/octet-stream\n\nx-amz-acl:public-read\nx-amz-date:Tue, 13 Oct 2015 13:13:23 +0000\n/life_is_big/25945/561d0345eaa62_1444741957_test.mp4'
+INFO: Sending file '/tmp/phphBKqgo', please wait...
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: get_hostname(life_is_big): s3.beyondhosting.net
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: format_uri(): /life_is_big/25945/561d0345eaa62_1444741957_test.mp4
+WARNING: Upload failed: /25945/561d0345eaa62_1444741957_test.mp4 ([Errno 32] Broken pipe)
+WARNING: Retrying on lower speed (throttle=1.25)
+WARNING: Waiting 15 sec...
+DEBUG: SignHeaders: 'PUT\n\nbinary/octet-stream\n\nx-amz-acl:public-read\nx-amz-date:Tue, 13 Oct 2015 13:13:43 +0000\n/life_is_big/25945/561d0345eaa62_1444741957_test.mp4'
+INFO: Sending file '/tmp/phphBKqgo', please wait...
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: get_hostname(life_is_big): s3.beyondhosting.net
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: format_uri(): /life_is_big/25945/561d0345eaa62_1444741957_test.mp4
+DEBUG: Giving up on '/tmp/phphBKqgo' [Errno 32] Broken pipe
+DEBUG: Unicodising 'Upload failed for: /25945/561d0345eaa62_1444741957_test.mp4' using ANSI_X3.4-1968
+ERROR: Upload of '/tmp/phphBKqgo' failed too many times. Skipping that file.
+DEBUG: ConfigParser: Reading file '/home/amrbakr/.s3cfg'
+DEBUG: ConfigParser: access_key->F7...17_chars...C
+DEBUG: ConfigParser: bucket_location->US
+DEBUG: ConfigParser: cloudfront_host->cloudfront.beyondhosting.net
+DEBUG: ConfigParser: default_mime_type->binary/octet-stream
+DEBUG: ConfigParser: delete_removed->False
+DEBUG: ConfigParser: dry_run->False
+DEBUG: ConfigParser: enable_multipart->True
+DEBUG: ConfigParser: encoding->UTF-8
+DEBUG: ConfigParser: encrypt->False
+DEBUG: ConfigParser: follow_symlinks->False
+DEBUG: ConfigParser: force->False
+DEBUG: ConfigParser: get_continue->False
+DEBUG: ConfigParser: gpg_command->/usr/bin/gpg
+DEBUG: ConfigParser: gpg_decrypt->%(gpg_command)s -d --verbose --no-use-agent --batch --yes --passphrase-fd %(passphrase_fd)s -o %(output_file)s %(input_file)s
+DEBUG: ConfigParser: gpg_encrypt->%(gpg_command)s -c --verbose --no-use-agent --batch --yes --passphrase-fd %(passphrase_fd)s -o %(output_file)s %(input_file)s
+DEBUG: ConfigParser: gpg_passphrase->Ba...6_chars...1
+DEBUG: ConfigParser: guess_mime_type->True
+DEBUG: ConfigParser: host_base->s3.beyondhosting.net
+DEBUG: ConfigParser: host_bucket->%(bucket)s.s3.beyondhosting.net
+DEBUG: ConfigParser: human_readable_sizes->False
+DEBUG: ConfigParser: invalidate_on_cf->False
+DEBUG: ConfigParser: list_md5->False
+DEBUG: ConfigParser: log_target_prefix->
+DEBUG: ConfigParser: mime_type->
+DEBUG: ConfigParser: multipart_chunk_size_mb->15
+DEBUG: ConfigParser: preserve_attrs->True
+DEBUG: ConfigParser: progress_meter->True
+DEBUG: ConfigParser: proxy_host->
+DEBUG: ConfigParser: proxy_port->0
+DEBUG: ConfigParser: recursive->False
+DEBUG: ConfigParser: recv_chunk->4096
+DEBUG: ConfigParser: reduced_redundancy->False
+DEBUG: ConfigParser: secret_key->O8...37_chars...F
+DEBUG: ConfigParser: send_chunk->4096
+DEBUG: ConfigParser: simpledb_host->sdb.beyondhosting.net
+DEBUG: ConfigParser: skip_existing->False
+DEBUG: ConfigParser: socket_timeout->300
+DEBUG: ConfigParser: urlencoding_mode->normal
+DEBUG: ConfigParser: use_https->True
+DEBUG: ConfigParser: verbosity->WARNING
+DEBUG: ConfigParser: website_endpoint->http://%(bucket)s.s3-website-%(location)s.beyondhosting.net/
+DEBUG: ConfigParser: website_error->
+DEBUG: ConfigParser: website_index->index.html
+DEBUG: Updating Config.Config encoding -> ANSI_X3.4-1968
+DEBUG: Updating Config.Config follow_symlinks -> False
+DEBUG: Updating Config.Config verbosity -> 10
+DEBUG: Unicodising 'put' using ANSI_X3.4-1968
+DEBUG: Unicodising '/tmp/phpsoRh4z' using ANSI_X3.4-1968
+DEBUG: Unicodising 's3://life_is_big/25945/image/561d0345eaa62_1444741957_test.mp4' using ANSI_X3.4-1968
+DEBUG: Command: put
+INFO: Compiling list of local files...
+DEBUG: DeUnicodising u'/tmp' using ANSI_X3.4-1968
+DEBUG: DeUnicodising u'phpsoRh4z' using ANSI_X3.4-1968
+DEBUG: Unicodising 'phpsoRh4z' using ANSI_X3.4-1968
+DEBUG: Unicodising '/tmp/phpsoRh4z' using ANSI_X3.4-1968
+INFO: Applying --exclude/--include
+DEBUG: CHECK: phpsoRh4z
+DEBUG: PASS: phpsoRh4z
+INFO: Summary: 1 local files to upload
+DEBUG: Unicodising 's3://life_is_big/25945/image/561d0345eaa62_1444741957_test.mp4' using ANSI_X3.4-1968
+WARNING: Module python-magic is not available. Guessing MIME types based on file extensions.
+DEBUG: Content-Type set to 'binary/octet-stream'
+DEBUG: String '25945/image/561d0345eaa62_1444741957_test.mp4' encoded to '25945/image/561d0345eaa62_1444741957_test.mp4'
+DEBUG: SignHeaders: 'PUT\n\nbinary/octet-stream\n\nx-amz-acl:public-read\nx-amz-date:Tue, 13 Oct 2015 13:14:07 +0000\n/life_is_big/25945/image/561d0345eaa62_1444741957_test.mp4'
+DEBUG: CreateRequest: resource[uri]=/25945/image/561d0345eaa62_1444741957_test.mp4
+DEBUG: Unicodising '/tmp/phpsoRh4z' using ANSI_X3.4-1968
+DEBUG: SignHeaders: 'PUT\n\nbinary/octet-stream\n\nx-amz-acl:public-read\nx-amz-date:Tue, 13 Oct 2015 13:14:07 +0000\n/life_is_big/25945/image/561d0345eaa62_1444741957_test.mp4'
+INFO: Sending file '/tmp/phpsoRh4z', please wait...
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: get_hostname(life_is_big): s3.beyondhosting.net
+DEBUG: Unicodising "Bucket name 'life_is_big' contains disallowed character '_'. The only supported ones are: lowercase us-ascii letters (a-z), digits (0-9), dot (.) and hyphen (-)." using ANSI_X3.4-1968
+DEBUG: format_uri(): /life_is_big/25945/image/561d0345eaa62_1444741957_test.mp4
+DEBUG: Response: {'status': 200, 'headers': {'content-length': '0', 'accept-ranges': 'bytes', 'server': 'Tengine/2.1.0', 'connection': 'keep-alive', 'etag': '"4f7a4e4256076d8e8270d8c4afd3f291"', 'date': 'Tue, 13 Oct 2015 13:14:10 GMT', 'content-type': 'application/xml'}, 'reason': 'OK', 'data': '', 'size': 105037}
+DEBUG: MD5 sums: computed=4f7a4e4256076d8e8270d8c4afd3f291, received="4f7a4e4256076d8e8270d8c4afd3f291"
+DEBUG: Unicodising '/tmp/phpsoRh4z' using ANSI_X3.4-1968
+File '/tmp/phpsoRh4z' stored as 's3://life_is_big/25945/image/561d0345eaa62_1444741957_test.mp4' (105037 bytes in 3.1 seconds, 33.53 kB/s) [1 of 1]
+Public URL of the object is: http://s3.amazonaws.com/life_is_big/25945/image/561d0345eaa62_1444741957_test.mp4
