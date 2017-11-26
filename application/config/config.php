@@ -16,7 +16,7 @@
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost/instagram-app/';
+$config['base_url'] = '';
 
 /*
 |--------------------------------------------------------------------------
